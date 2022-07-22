@@ -1,0 +1,9 @@
+<app-addtodo></app-addtodo>
+<ul class="todos">
+    <li *ngFor="let todo of todos | async; let i=index">
+     {{todo.title}}
+     <span (click)="removeTodo(i)"class="crossbtn">x</span>
+    </li>
+</ul>
+
+

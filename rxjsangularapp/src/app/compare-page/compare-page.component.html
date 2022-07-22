@@ -1,0 +1,198 @@
+<div class="pannel-header">
+  <span
+    >Compare Studies By <strong>{{ selectedStudies.value }}</strong></span
+  >
+  <mat-form-field appearance="outline">
+    <mat-select [formControl]="selectedStudies">
+      <mat-option *ngFor="let study of studies" [value]="study">
+      {{ study }}
+     </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+<div class="container">
+  <mat-card class="card" [ngClass]="{ blue: true }">
+    <div class="d-flex justify-content-space-between card-header">
+      <div>
+        <strong>Study No. B023342</strong>
+      </div>
+      <div class="icons">
+        <div>
+            <i class="material-icons add" (click)="expandCard()">add</i>
+          </div>
+        <div>
+            <i class="material-icons trash" (click)="trashCard()">delete</i>
+          </div>
+      </div>
+      
+    </div>
+    <div class="subtitle">
+        <div class="subtitles">Source:Citeline</div>
+        <div class="subtitles">Primary Objective</div>
+   </div>
+    <div class="scrollable-content">
+      <mat-card-content>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet sint
+        repudiandae hic, laborum harum nobis corporis sapiente sequi quod autem
+        exercitationem deleniti, enim consectetur saepe, mollitia ea eos
+        deserunt similique! Lorem, ipsum dolor sit amet consectetur adipisicing
+        elit. Ipsum architecto aliquid impedit, eos esse, animi officiis
+        distinctio laudantium a qui illo adipisci. Aliquam alias autem incidunt,
+        quos pariatur cum ex. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Nihil quibusdam fugiat corrupti, dolorem ipsam earum velit harum
+        asperiores doloremque atque quam dicta quis libero dolorum accusantium
+        sint incidunt. Odio, atque. When using the createSelector and
+        createFeatureSelector functions @ngrx/store keeps track of the latest
+        arguments in which your selector function was invoked. Because selectors
+        are pure functions, the last result can be returned when the arguments
+        match without reinvoking your selector function. This can provide
+        performance benefits, particularly with selectors that perform expensive
+        computation. This practice is known as memoization.
+      </mat-card-content>
+    </div>
+</mat-card>
+  <mat-card class="card" [ngClass]="{ orange: true }">
+    <div class="d-flex justify-content-space-between card-header">
+      <div>
+        <strong>Study No. B023342</strong>
+      </div>
+     <div class="icons">
+        <div>
+            <i class="material-icons add" (click)="expandCard()">add</i>
+          </div>
+        <div>
+            <i class="material-icons trash" (click)="trashCard()">delete</i>
+          </div>
+      </div>
+    </div>
+    <div class="subtitle">
+    <div class="subtitles">Source:Citeline</div>
+    <div class="subtitles">Primary Objective</div>
+    </div>
+    <div class="scrollable-content">
+      <mat-card-content class="content">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet sint
+        repudiandae hic, laborum harum nobis corporis sapiente sequi quod autem
+        exercitationem deleniti, enim consectetur saepe, mollitia ea eos
+        deserunt similique! Lorem, ipsum dolor sit amet consectetur adipisicing
+        elit. Ipsum architecto aliquid impedit, eos esse, animi officiis
+        distinctio laudantium a qui illo adipisci. Aliquam alias autem incidunt,
+        quos pariatur cum ex. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Nihil quibusdam fugiat corrupti, dolorem ipsam earum velit harum
+        asperiores doloremque atque quam dicta quis libero dolorum accusantium
+        sint incidunt. Odio, atque. When using the createSelector and
+        createFeatureSelector functions @ngrx/store keeps track of the latest
+        arguments in which your selector function was invoked. Because selectors
+        are pure functions, the last result can be returned when the arguments
+        match without reinvoking your selector function. This can provide
+        performance benefits, particularly with selectors that perform expensive
+        computation. This practice is known as memoization.
+      </mat-card-content>
+    </div>
+  </mat-card>
+  <mat-card class="card" [ngClass]="{ green: true }">
+    <div class="d-flex justify-content-space-between card-header">
+      <div>
+        <strong>Study No. B023342</strong>
+      </div>
+      <div class="icons">
+        <div>
+            <i class="material-icons add" (click)="expandCard()">add</i>
+          </div>
+        <div>
+            <i class="material-icons trash" (click)="trashCard()">delete</i>
+          </div>
+      </div>
+    </div>
+    <div class="subtitle">
+        <div class="subtitles">Source:Citeline</div>
+        <div class="subtitles">Primary Objective</div>
+        </div>
+    <div class="scrollable-content">
+      <mat-card-content class="content">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet sint
+        repudiandae hic, laborum harum nobis corporis sapiente sequi quod autem
+        exercitationem deleniti, enim consectetur saepe, mollitia ea eos
+        deserunt similique! Lorem, ipsum dolor sit amet consectetur adipisicing
+        elit. Ipsum architecto aliquid impedit, eos esse, animi officiis
+        distinctio laudantium a qui illo adipisci. Aliquam alias autem incidunt,
+        quos pariatur cum ex. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Nihil quibusdam fugiat corrupti, dolorem ipsam earum velit harum
+        asperiores doloremque atque quam dicta quis libero dolorum accusantium
+        sint incidunt. Odio, atque. When using the createSelector and
+        createFeatureSelector functions @ngrx/store keeps track of the latest
+        arguments in which your selector function was invoked. Because selectors
+        are pure functions, the last result can be returned when the arguments
+        match without reinvoking your selector function. This can provide
+        performance benefits, particularly with selectors that perform expensive
+        computation. This practice is known as memoization.
+      </mat-card-content>
+    </div>
+  </mat-card>
+  <mat-card class="card" [ngClass]="{ purple: true }">
+    <div class="d-flex justify-content-space-between card-header">
+      <div>
+        <strong>Study No. B023342</strong>
+      </div>
+      <div class="icons">
+        <div>
+            <i class="material-icons add" (click)="expandCard()">add</i>
+          </div>
+        <div>
+            <i class="material-icons trash" (click)="trashCard()">delete</i>
+          </div>
+      </div>
+    </div>
+    <div class="subtitle">
+        <div class="subtitles">Source:Citeline</div>
+        <div class="subtitles">Primary Objective</div>
+        </div>
+    <div class="scrollable-content">
+      <mat-card-content class="content">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet sint
+        repudiandae hic, laborum harum nobis corporis sapiente sequi quod autem
+        exercitationem deleniti, enim consectetur saepe, mollitia ea eos
+        deserunt similique! Lorem, ipsum dolor sit amet consectetur adipisicing
+        elit. Ipsum architecto aliquid impedit, eos esse, animi officiis
+        distinctio laudantium a qui illo adipisci. Aliquam alias autem incidunt,
+        quos pariatur cum ex. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Nihil quibusdam fugiat corrupti, dolorem ipsam earum velit harum
+        asperiores doloremque atque quam dicta quis libero dolorum accusantium
+        sint incidunt. Odio, atque. When using the createSelector and
+        createFeatureSelector functions @ngrx/store keeps track of the latest
+        arguments in which your selector function was invoked. Because selectors
+        are pure functions, the last result can be returned when the arguments
+        match without reinvoking your selector function. This can provide
+        performance benefits, particularly with selectors that perform expensive
+        computation. This practice is known as memoization.
+      </mat-card-content>
+    </div>
+  </mat-card>
+</div>
+<div class="items">
+  <!-- <div class="example-selected-value">You selected the category as is: {{selectedCategory}}</div> -->
+
+  <!-- <form class="form-inline my-2 my-lg-0" #f="ngForm" (ngSubmit)="onSubmit(f)"> -->
+  <form  novalidate [formGroup]="search" (ngSubmit)="onSubmit(search)">
+    <div class="searchbtn">
+      <input
+        class="form-control"
+        formControlName="text"
+        type="search"
+        #name
+        name="text"
+        ngModel
+        placeholder="Search"
+        aria-label="Search" 
+      />
+      <div style="color: red;font-size: small;margin-left:10px;" *ngIf="text && text.invalid && text.touched"
+        >Search within {{ selectedStudies.value }}</div>
+    </div>
+    <button mat-raised-button color="primary" type="submit"  [disabled]="search.invalid">Search</button>
+  </form>
+  <div>
+    <button mat-raised-button color="primary" type="submit">
+     Reselect Studies
+    </button>
+  </div>
+</div>
